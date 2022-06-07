@@ -1,0 +1,26 @@
+body{
+    padding: 10px;
+    background-color: #f39c12;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color:#1a1a1a;
+}
+
+.form {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.btn{
+    margin: 10px;
+    width: 160px;
+    background-color: #1a1a1a;
+    color: white;
+}

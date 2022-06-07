@@ -1,0 +1,81 @@
+body{
+    background-color: #DDD;
+}
+header {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    background-color: #f39c12;
+    box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 30%);
+}
+
+header .logo {
+    color: green;
+    font-size: 2rem;
+}
+
+.x {
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 0px 25px;
+    height: 36px;
+    align-items: center;
+    right: 0;
+    top: 0;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+footer{
+    background-color: white;
+    margin: 50px 400px;
+    width: 600px;
+    height: 600px;
+}
+table{
+    margin-left: 50px;
+}
+table,th,td{
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    height: 40px;
+}
+th{
+    border: none;
+    background-color: #f39c12;
+}
+.odd{
+    background-color: #AAA;
+}
+.even{
+    background-color: #DDD;
+}
+#asd{
+    margin-left: 60px;
+}
+.input{
+    margin: 20px 50px;
+}
+.input *{
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    border: solid 1px;
+}
+#add{
+    background-color: #f39c12;
+    border: none;
+    font-size: 15px;
+}
